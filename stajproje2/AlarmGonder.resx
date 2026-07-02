@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblAlarmType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 96</value>
+  </data>
+  <data name="&gt;&gt;lblMacAddress.Name" xml:space="preserve">
+    <value>lblMacAddress</value>
+  </data>
+  <data name="&gt;&gt;lblWarningLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudMonitorLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbAlarmType.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblRetryCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 215</value>
+  </data>
+  <data name="lblDangerLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblMacAddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nudMonitorLimit.Name" xml:space="preserve">
+    <value>nudMonitorLimit</value>
+  </data>
+  <data name="lblDangerLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 25</value>
+  </data>
+  <data name="lblMacAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 25</value>
+  </data>
+  <data name="dangerWarningSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 33</value>
+  </data>
+  <data name="&gt;&gt;lblRetryCount.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblMacAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="&gt;&gt;lblMacAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dangerWarningSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblWarningLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 99</value>
+  </data>
+  <data name="lblMonitorLimit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dangerWarningSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 185</value>
+  </data>
+  <data name="&gt;&gt;txtMacAddress.Name" xml:space="preserve">
+    <value>txtMacAddress</value>
+  </data>
+  <data name="&gt;&gt;lblDangerLimit.Name" xml:space="preserve">
+    <value>lblDangerLimit</value>
+  </data>
+  <data name="nudRetryCount.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblAlarmType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 25</value>
+  </data>
+  <data name="dangerWarningSelect.Items1" xml:space="preserve">
+    <value>Danger</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AlarmGonder</value>
+  </data>
+  <data name="btnGenerateAlarmJson.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnTriggerAlarm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Alarm Oluştur</value>
+  </data>
+  <data name="&gt;&gt;lblRetryCount.Name" xml:space="preserve">
+    <value>lblRetryCount</value>
+  </data>
+  <data name="&gt;&gt;txtAlarmJsonPayload.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;nudMonitorLimit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblRetryCount.Text" xml:space="preserve">
+    <value>Retry Count</value>
+  </data>
+  <data name="lblWarningLimit.Text" xml:space="preserve">
+    <value>Warning Limit</value>
+  </data>
+  <data name="&gt;&gt;dangerWarningSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbAlarmType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;lblWarningLimit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;nudDangerLimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtMacAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbAlarmType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtMacAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dangerWarningSelect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbAlarmType.Name" xml:space="preserve">
+    <value>cmbAlarmType</value>
+  </data>
+  <data name="lblMonitorLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txtMacAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Warning - Danger</value>
+  </data>
+  <data name="cmbAlarmType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 121</value>
+  </data>
+  <data name="btnGenerateAlarmJson.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;lblDangerLimit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblAlarmType.Name" xml:space="preserve">
+    <value>lblAlarmType</value>
+  </data>
+  <data name="cmbAlarmType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 33</value>
+  </data>
+  <data name="lblRetryCount.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nudRetryCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 27</value>
+  </data>
+  <data name="nudDangerLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 69</value>
+  </data>
+  <data name="&gt;&gt;nudRetryCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nudDangerLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 27</value>
+  </data>
+  <data name="&gt;&gt;lblMonitorLimit.Name" xml:space="preserve">
+    <value>lblMonitorLimit</value>
+  </data>
+  <data name="&gt;&gt;lblRetryCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnTriggerAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>801, 476</value>
+  </data>
+  <data name="lblWarningLimit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;txtAlarmJsonPayload.Name" xml:space="preserve">
+    <value>txtAlarmJsonPayload</value>
+  </data>
+  <data name="&gt;&gt;lblDangerLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMonitorLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWarningLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtMacAddress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtAlarmJsonPayload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dangerWarningSelect.Name" xml:space="preserve">
+    <value>dangerWarningSelect</value>
+  </data>
+  <data name="lblMacAddress.Text" xml:space="preserve">
+    <value>MAC Adresi</value>
+  </data>
+  <data name="&gt;&gt;nudWarningLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudRetryCount.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblAlarmType.Text" xml:space="preserve">
+    <value>Alarm Türü</value>
+  </data>
+  <data name="txtAlarmJsonPayload.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dangerWarningSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;nudWarningLimit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblMonitorLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 25</value>
+  </data>
+  <data name="btnTriggerAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblWarningLimit.Name" xml:space="preserve">
+    <value>lblWarningLimit</value>
+  </data>
+  <data name="&gt;&gt;nudWarningLimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMacAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 41</value>
+  </data>
+  <data name="&gt;&gt;lblAlarmType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblRetryCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 25</value>
+  </data>
+  <data name="nudWarningLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtAlarmJsonPayload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 66</value>
+  </data>
+  <data name="&gt;&gt;lblWarningLimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGenerateAlarmJson.Name" xml:space="preserve">
+    <value>btnGenerateAlarmJson</value>
+  </data>
+  <data name="nudWarningLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 127</value>
+  </data>
+  <data name="txtMacAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 69</value>
+  </data>
+  <data name="lblWarningLimit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nudWarningLimit.Name" xml:space="preserve">
+    <value>nudWarningLimit</value>
+  </data>
+  <data name="lblDangerLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 41</value>
+  </data>
+  <data name="&gt;&gt;nudDangerLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAlarmType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="btnTriggerAlarm.Text" xml:space="preserve">
+    <value>Alarmı Tetikle</value>
+  </data>
+  <data name="btnGenerateAlarmJson.Text" xml:space="preserve">
+    <value>JSON Hazırla</value>
+  </data>
+  <data name="txtAlarmJsonPayload.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="lblRetryCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Italic</value>
+  </data>
+  <data name="btnGenerateAlarmJson.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 476</value>
+  </data>
+  <data name="nudDangerLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblAlarmType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblDangerLimit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1066, 573</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 25</value>
+  </data>
+  <data name="&gt;&gt;dangerWarningSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTriggerAlarm.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="nudRetryCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 243</value>
+  </data>
+  <data name="lblMonitorLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 157</value>
+  </data>
+  <data name="&gt;&gt;lblAlarmType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtMacAddress.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblDangerLimit.Text" xml:space="preserve">
+    <value>Danger Limit</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDangerLimit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Italic</value>
+  </data>
+  <data name="lblMonitorLimit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;cmbAlarmType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudMonitorLimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGenerateAlarmJson.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnTriggerAlarm.Name" xml:space="preserve">
+    <value>btnTriggerAlarm</value>
+  </data>
+  <data name="&gt;&gt;btnGenerateAlarmJson.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRetryCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nudRetryCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRetryCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAlarmJsonPayload.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMacAddress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDangerLimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMonitorLimit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnGenerateAlarmJson.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudDangerLimit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="nudMonitorLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 185</value>
+  </data>
+  <data name="txtAlarmJsonPayload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>459, 383</value>
+  </data>
+  <data name="&gt;&gt;nudDangerLimit.Name" xml:space="preserve">
+    <value>nudDangerLimit</value>
+  </data>
+  <data name="&gt;&gt;lblMacAddress.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblAlarmType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbAlarmType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnTriggerAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 40</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="lblMacAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnGenerateAlarmJson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 40</value>
+  </data>
+  <data name="&gt;&gt;lblAlarmType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nudMonitorLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 27</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 157</value>
+  </data>
+  <data name="&gt;&gt;btnTriggerAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtAlarmJsonPayload.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dangerWarningSelect.Items" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="lblMonitorLimit.Text" xml:space="preserve">
+    <value>Monitor Limit (Otomatik)</value>
+  </data>
+  <data name="&gt;&gt;lblMonitorLimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nudMonitorLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;nudRetryCount.Name" xml:space="preserve">
+    <value>nudRetryCount</value>
+  </data>
+  <data name="nudWarningLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 27</value>
+  </data>
+  <data name="lblWarningLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 25</value>
+  </data>
+  <data name="&gt;&gt;btnTriggerAlarm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
